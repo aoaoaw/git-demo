@@ -1,2 +1,6 @@
-package demo.service;public class DemoService {
+package demo.service;
+
+public interface DemoService {
+
+    String getName(String name);
 }
